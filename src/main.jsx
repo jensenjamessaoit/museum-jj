@@ -7,6 +7,8 @@ import App from "./App.jsx";
 import Home from "./pages/Home.jsx";
 import Error from "./pages/Error.jsx";
 import Projects from "./pages/Projects.jsx";
+import Resume from "./pages/Resume.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />,
+      },
+      {
+        path: "/resume",
+        element: <Resume />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },

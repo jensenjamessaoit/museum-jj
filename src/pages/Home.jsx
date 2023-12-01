@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <>
-      <div className="container-fluid" style={{ height: "80vh" }}>
+      <div className="container-fluid" style={{ height: "90vh" }}>
         <div
           className="row justify-content-center align-items-center"
           style={{ height: "100%" }}
