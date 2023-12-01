@@ -1,12 +1,14 @@
 const Navbar = () => {
+  const style = { color: "#000000" };
+
   return (
     <>
       <nav
         className="navbar navbar-expand-lg"
-        style={{ background: "#693213" }}
+        style={{ borderBottomStyle: "solid", borderBottomWidth: "1px" }}
       >
-        <div className="container-fluid" style={{ background: "#693213" }}>
-          <a className="navbar-brand" href="/" style={{ color: "#000000" }}>
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/" style={style}>
             Museum JJ
           </a>
           <button
@@ -17,36 +19,24 @@ const Navbar = () => {
             aria-controls="navigation"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            style={{ color: "#000000" }}
+            style={{ color: "#000000", borderColor: "#000000" }}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navigation">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="/projects"
-                  style={{ color: "#000000" }}
-                >
+                <a className="nav-link" href="/projects" style={style}>
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="/resume"
-                  style={{ color: "#000000" }}
-                >
+                <a className="nav-link" href="/resume" style={style}>
                   Resume
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="contact"
-                  style={{ color: "#000000" }}
-                >
+                <a className="nav-link" href="contact" style={style}>
                   Contact
                 </a>
               </li>
