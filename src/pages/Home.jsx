@@ -13,7 +13,7 @@ const Home = () => {
             <div className="card-body">
               <h1 className="card-title">Welcome to my Museum</h1>
               <h3 className="card-subtitle">By JJ Saoit</h3>
-              <p>
+              <p style={{ margin: "32px" }}>
                 Passionate web developer with a keen enthusiasm for the
                 limitless possibilities of the web. Skilled in managing and
                 creating both relational (MySQL) and non-relational (MongoDB)
