@@ -6,7 +6,10 @@ const Home = () => {
           className="row justify-content-center align-items-center"
           style={{ height: "100%" }}
         >
-          <div className="card mx-auto" style={{ width: "90%", height: "98%" }}>
+          <div
+            className="card border-dark mx-auto"
+            style={{ width: "95%", height: "95%" }}
+          >
             <div className="card-body">
               <h1 className="card-title">Welcome to my Museum</h1>
               <h3 className="card-subtitle">By JJ Saoit</h3>
