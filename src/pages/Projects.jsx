@@ -3,28 +3,28 @@ import ProjectCard from "../components/ProjectsCard";
 const projectList = [
   {
     id: 1,
-    img: "/src/assets/UtahRealEsateSS.PNG",
+    img: "/images/UtahRealEsateSS.PNG",
     title: "Utah Real Estate Keyword Search",
     repo: "https://github.com/Jelu113/Utah-Real-Estate-Keywords",
     deploy: "https://utah-real-estate-keywords-production.up.railway.app/",
   },
   {
     id: 2,
-    img: "/src/assets/doodleduelSS.PNG",
+    img: "/images/doodleduelSS.PNG",
     title: "Doodle Duel",
     repo: "https://github.com/Leucisticboi/DoodleDuel",
     deploy: "https://doodle-duel-p2-32e9f10a2b67.herokuapp.com/",
   },
   {
     id: 3,
-    img: "/src/assets/skywatch.PNG",
+    img: "/images/skywatch.PNG",
     title: "Skywatch(flight tracker)",
     repo: "https://github.com/jensenjamessaoit/Skywatch",
     deploy: "https://jensenjamessaoit.github.io/Skywatch/",
   },
   {
     id: 4,
-    img: "/src/assets/blogsite.PNG",
+    img: "/images/blogsite.PNG",
     title: "CMS Blog Site(flight tracker)",
     repo: "https://github.com/jensenjamessaoit/CMS-blog-site",
     deploy: "https://cms-blog-site-production.up.railway.app/",
