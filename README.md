@@ -8,6 +8,7 @@
 
 ## Description
 
+https://deploy-preview-12--astonishing-selkie-c7e290.netlify.app/
 This is my portfolio website built with react that showcases my projects, resume and, contact info
 
 ## Table of Contents
